@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cp ~/settings/dtnd_default.conf ~/settings/dtnd.conf
+cp ~/dtn-test/settings/dtnd_default.conf ~/dtn-test/settings/dtnd.conf
 
 echo -n "Input host name: "
 read hname
