@@ -38,7 +38,7 @@ This is code based on ibrdtn for studying.
 > excutable files permission
 > * command line:
 
-    ~$ cd ~/dtn-test/excutable
+    ~$ cd ~/dtn-test/executable
     ~$ chmod u+x dtnd.sh
     ~$ chmod u+x setconf.sh
 
