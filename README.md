@@ -47,12 +47,12 @@ This is code based on ibrdtn for studying.
 > * ex) Input interface name: wlan0
 > * command line:
 
-    ~$ setconf.sh
+    ~$ ./setconf.sh
 
 > excute ibrdtn daemon
 > * dtnd.sh [option]
 > * ex) dtnd.sh start
 > * command line:
 
-    ~$ dtnd.sh start
+    ~$ ./dtnd.sh start
 
