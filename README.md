@@ -20,13 +20,13 @@ This is code based on ibrdtn for studying.
     git clone https://github.com/muga0926/dtn-applications.git ~/dtn-test
 
 > copy dtnfile.cpp in ibrdtn source code
->   > command line:
+> * command line:
 
     mv ~/dtn-src/ibrdtn/tools/Makefile.am ~/dtn-test/backup/
     cp ~/dtn-test/tools/* ~/dtn/ibrdtn/tools/
  
 > installation ibrdtn
->   > command line:
+> * command line:
 
     cd ~/dtn/ibrdtn
     bash autogen.sh
@@ -36,23 +36,23 @@ This is code based on ibrdtn for studying.
     sudo ldconfig
 
 > excutable files permission
->   > command line:
+> * command line:
 
     cd ~/dtn-test/excutable
     chmod u+x dtnd.sh
     chmod u+x setconf.sh
 
 > input host and interface name
-> ex) Input host name: 2001:14:126:564:30:ae:8d52:aedc:66a7
-> ex) Input interface name: wlan0
->   > commnad line:
+> * ex) Input host name: 2001:14:126:564:30:ae:8d52:aedc:66a7
+> * ex) Input interface name: wlan0
+> * command line:
 
     setconf.sh
 
 > excute ibrdtn daemon
-> dtnd.sh [option]
-> ex) dtnd.sh start
->   > command line:
+> * dtnd.sh [option]
+> * ex) dtnd.sh start
+> * command line:
 
     dtnd.sh start
 
