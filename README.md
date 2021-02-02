@@ -38,11 +38,11 @@ This is code based on ibrdtn for studying.
     chmod u+x dtnd.sh
     chmod u+x setconf.sh
 
-> excution 1 (host name, interface name):
+> excution 1 (input: host name, interface name):
 
     setconf.sh
 
-> excution 2 :
+> excution 2 ([option]: start, stop, restart):
 
-    dtnd.sh
+    dtnd.sh [option]
 
