@@ -22,8 +22,8 @@ This is code based on ibrdtn for studying.
 > copy dtnfile.cpp in ibrdtn source code
 > * command line:
 
-    ~$ mv ~/dtn-src/ibrdtn/tools/Makefile.am ~/dtn-test/backup/
-    ~$ cp ~/dtn-test/tools/* ~/dtn/ibrdtn/tools/
+    ~$ mv ~/dtn-src/ibrdtn/tools/src/Makefile.am ~/dtn-test/backup/
+    ~$ cp ~/dtn-test/tools/* ~/dtn/ibrdtn/tools/src/
  
 > installation ibrdtn
 > * command line:
