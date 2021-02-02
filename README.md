@@ -28,7 +28,7 @@ This is code based on ibrdtn for studying.
 > installation ibrdtn
 > * command line:
 
-    ~$ cd ~/dtn/ibrdtn
+    ~$ cd ~/dtn-src/ibrdtn
     ~$ bash autogen.sh
     ~$ ./configure
     ~$ make
