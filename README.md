@@ -5,25 +5,28 @@ This is code based on ibrdtn for studying.
 
 # installation guide
 
-> libraries:
+> install libraries...
+>   > command line:
 
     sudo apt-get update
     sudo apt-get install devscripts build-essential libtool cdbs pkg-config debhelper autotools-dev \
     libnl-3-dev libnl-genl-3-dev libnl-route-3-dev libnl-nf-3-dev libnl-cli-3-dev libssl-dev libssl-dev \
     zlib1g-dev libsqlite3-dev libcurl4-openssl-dev libdaemon-dev libvmime-dev libarchive-dev
 
-> ibrdtn and applications:
+> download source code (ibrdtn and dtn-applications)
+>   > command line:
 
     git clone https://github.com/ibrdtn/ibrdtn.git ~/dtn-src
     git clone https://github.com/muga0926/dtn-applications.git ~/dtn-test
 
-> source code change:
+> copy dtnfile.cpp in ibrdtn source code
+>   > command line:
 
     mv ~/dtn-src/ibrdtn/tools/Makefile.am ~/dtn-test/backup/
     cp ~/dtn-test/tools/* ~/dtn/ibrdtn/tools/
  
-
-> configuration:
+> installation ibrdtn
+>   > command line:
 
     cd ~/dtn/ibrdtn
     bash autogen.sh
@@ -32,17 +35,24 @@ This is code based on ibrdtn for studying.
     sudo make install
     sudo ldconfig
 
-> excutable files:
+> excutable files permission
+>   > command line:
 
     cd ~/dtn-test/excutable
     chmod u+x dtnd.sh
     chmod u+x setconf.sh
 
-> excution 1 (input: host name, interface name):
+> input host and interface name
+> ex) Input host name: 2001:14:126:564:30:ae:8d52:aedc:66a7
+> ex) Input interface name: wlan0
+>   > commnad line:
 
     setconf.sh
 
-> excution 2 ([option]: start, stop, restart):
+> excute ibrdtn daemon
+> dtnd.sh [option]
+> ex) dtnd.sh start
+>   > command line:
 
-    dtnd.sh [option]
+    dtnd.sh start
 
