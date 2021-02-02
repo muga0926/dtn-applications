@@ -4,6 +4,7 @@ This is code based on ibrdtn for studying.
 
 
 # installation guide
+# commnad
 sudo apt-get update
 
 sudo apt-get install devscripts build-essential libtool cdbs pkg-config debhelper autotools-dev \
