@@ -37,3 +37,12 @@ This is code based on ibrdtn for studying.
     cd ~/dtn-test/excutable
     chmod u+x dtnd.sh
     chmod u+x setconf.sh
+
+> excution 1 (host name, interface name):
+
+    setconf.sh
+
+> excution 2 :
+
+    dtnd.sh
+
